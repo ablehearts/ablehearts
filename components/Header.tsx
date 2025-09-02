@@ -4,7 +4,15 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 import { motion, AnimatePresence, Variants } from "framer-motion";
-import { Menu, X, Home, Info, HeartHandshake, Mail } from "lucide-react";
+import {
+  Menu,
+  X,
+  Home,
+  Info,
+  HeartHandshake,
+  Mail,
+  BookOpen,
+} from "lucide-react";
 
 // Define types for the variants
 type MenuVariants = {
@@ -50,6 +58,7 @@ export default function Header() {
   const navItems = [
     { name: "Home", href: "/", icon: Home },
     { name: "About", href: "/about", icon: Info },
+    { name: "Updates", href: "/updates", icon: BookOpen },
     { name: "Donate", href: "/donate", icon: HeartHandshake },
     { name: "Contact", href: "/contact", icon: Mail },
   ];
@@ -128,7 +137,7 @@ export default function Header() {
             <Link
               key={name}
               href={href}
-              className="flex items-center gap-2 px-4 py-2 rounded-xl hover:bg-white/50 hover:shadow-sm transition-all duration-300 group/nav"
+              className="flex items-center gap-2 px-2 py-2 rounded-xl hover:bg-white/50 hover:shadow-sm transition-all duration-300 group/nav"
             >
               <Icon className="w-5 h-5 text-rose-500 group-hover/nav:text-rose-600 transition-colors duration-300" />
               <span className="text-brand-dark group-hover/nav:text-rose-600 transition-colors duration-300">
