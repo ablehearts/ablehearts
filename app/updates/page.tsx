@@ -29,7 +29,7 @@ export default function UpdatesPage() {
             Updates & Stories{" "}
             <BookOpen className="inline w-8 h-8 text-rose-600 ml-2" />
           </motion.h1>
-          
+
           {/* AbleHearts Logo */}
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
@@ -46,7 +46,7 @@ export default function UpdatesPage() {
               priority
             />
           </motion.div>
-          
+
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -75,14 +75,17 @@ export default function UpdatesPage() {
               <Calendar className="w-5 h-5 text-rose-500 mr-2" />
               <span className="text-sm text-gray-500">October 15, 2023</span>
             </div>
-            <h3 className="font-semibold text-lg text-brand-dark mb-3">Medical Progress</h3>
+            <h3 className="font-semibold text-lg text-brand-dark mb-3">
+              Medical Progress
+            </h3>
             <p className="text-gray-700 mb-4">
-              Lydia has started her new treatment regimen. Thanks to your support, 
-              she's receiving the care she needs for her leg wounds.
+              Lydia has started her new treatment regimen. Thanks to your
+              support, she's receiving the care she needs for her leg wounds.
             </p>
             <div className="bg-rose-50 rounded-lg p-3">
               <p className="text-sm text-rose-700 italic">
-                "I can feel the improvement already. Thank you for giving me hope." - Lydia
+                "I can feel the improvement already. Thank you for giving me
+                hope." - Lydia
               </p>
             </div>
           </motion.div>
@@ -96,14 +99,17 @@ export default function UpdatesPage() {
               <Calendar className="w-5 h-5 text-rose-500 mr-2" />
               <span className="text-sm text-gray-500">September 28, 2023</span>
             </div>
-            <h3 className="font-semibold text-lg text-brand-dark mb-3">Education Support</h3>
+            <h3 className="font-semibold text-lg text-brand-dark mb-3">
+              Education Support
+            </h3>
             <p className="text-gray-700 mb-4">
-              Mary's niece has started school with new supplies and uniform. 
+              Mary's niece has started school with new supplies and uniform.
               Your donations made this possible for her education journey.
             </p>
             <div className="bg-amber-50 rounded-lg p-3">
               <p className="text-sm text-amber-700 italic">
-                "She's so excited to learn. This means everything to our family." - Mary
+                "She's so excited to learn. This means everything to our
+                family." - Mary
               </p>
             </div>
           </motion.div>
@@ -117,14 +123,17 @@ export default function UpdatesPage() {
               <Calendar className="w-5 h-5 text-rose-500 mr-2" />
               <span className="text-sm text-gray-500">September 10, 2023</span>
             </div>
-            <h3 className="font-semibold text-lg text-brand-dark mb-3">Community Growth</h3>
+            <h3 className="font-semibold text-lg text-brand-dark mb-3">
+              Community Growth
+            </h3>
             <p className="text-gray-700 mb-4">
-              Our AbleHearts community has helped 5 additional families this month 
-              with essential supplies and medical support.
+              Our AbleHearts community has helped 5 additional families this
+              month with essential supplies and medical support.
             </p>
             <div className="bg-green-50 rounded-lg p-3">
               <p className="text-sm text-green-700 italic">
-                "Your kindness has reached so many. We're grateful beyond words."
+                "Your kindness has reached so many. We're grateful beyond
+                words."
               </p>
             </div>
           </motion.div>
@@ -135,7 +144,9 @@ export default function UpdatesPage() {
             className="bg-white/50 backdrop-blur-lg rounded-2xl p-6 shadow-lg border border-white/40 border-dashed text-center flex flex-col items-center justify-center"
           >
             <Users className="w-12 h-12 text-gray-400 mb-4" />
-            <h3 className="font-semibold text-lg text-gray-600 mb-2">More Stories Coming</h3>
+            <h3 className="font-semibold text-lg text-gray-600 mb-2">
+              More Stories Coming
+            </h3>
             <p className="text-gray-500 text-sm">
               We're continuously updating with new stories of hope and progress.
             </p>
@@ -159,8 +170,9 @@ export default function UpdatesPage() {
             Follow Our Journey
           </h2>
           <p className="text-gray-700 mb-6">
-            For real-time updates and more personal stories, follow us on social media. 
-            See the direct impact of your support through photos and videos.
+            For real-time updates and more personal stories, follow us on social
+            media. See the direct impact of your support through photos and
+            videos.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

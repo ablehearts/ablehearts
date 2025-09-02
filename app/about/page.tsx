@@ -21,12 +21,12 @@ export default function AboutPage() {
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
-            <div className="flex items-center justify-center gap-4 mb-6">
+          <div className="flex items-center justify-center gap-4 mb-6">
             <h1 className="text-4xl md:text-5xl font-heading font-bold text-brand-dark">
               About AbleHearts
             </h1>
             <HeartHandshake className="w-10 h-10 text-rose-500" />
-            </div>
+          </div>
 
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}

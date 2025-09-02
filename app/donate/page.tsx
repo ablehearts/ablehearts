@@ -27,9 +27,12 @@ export default function DonatePage() {
             className="text-4xl md:text-5xl font-heading font-bold text-brand-dark mb-6"
           >
             Support with Love{" "}
-            <Heart className="inline w-8 h-8 text-rose-600" fill="currentColor" />
+            <Heart
+              className="inline w-8 h-8 text-rose-600"
+              fill="currentColor"
+            />
           </motion.h1>
-          
+
           {/* AbleHearts Logo */}
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
@@ -46,14 +49,15 @@ export default function DonatePage() {
               priority
             />
           </motion.div>
-          
+
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
             className="text-lg text-gray-700 leading-relaxed mb-8 max-w-2xl mx-auto"
           >
-            Every contribution brings hope, care, and dignity. Choose how you'd like to help below.
+            Every contribution brings hope, care, and dignity. Choose how you'd
+            like to help below.
           </motion.p>
         </motion.div>
 
@@ -67,7 +71,7 @@ export default function DonatePage() {
           <h2 className="text-2xl font-semibold text-brand-dark text-center mb-6">
             Available Payment Methods
           </h2>
-          
+
           <div className="grid md:grid-cols-2 gap-6">
             {/* PayPal */}
             <motion.div
@@ -76,7 +80,9 @@ export default function DonatePage() {
             >
               <div className="flex items-center mb-4">
                 <Globe className="w-8 h-8 text-blue-500 mr-3" />
-                <h3 className="font-semibold text-lg text-brand-dark">PayPal</h3>
+                <h3 className="font-semibold text-lg text-brand-dark">
+                  PayPal
+                </h3>
               </div>
               <p className="text-gray-700 mb-4">Send support via PayPal</p>
               <p className="bg-rose-50 rounded-lg p-3 font-mono text-sm text-rose-700">
@@ -91,7 +97,9 @@ export default function DonatePage() {
             >
               <div className="flex items-center mb-4">
                 <CreditCard className="w-8 h-8 text-green-500 mr-3" />
-                <h3 className="font-semibold text-lg text-brand-dark">Bank Transfer (Equity)</h3>
+                <h3 className="font-semibold text-lg text-brand-dark">
+                  Bank Transfer (Equity)
+                </h3>
               </div>
               <p className="text-gray-700 mb-4">Direct bank transfer</p>
               <p className="bg-rose-50 rounded-lg p-3 font-mono text-sm text-rose-700">
@@ -111,7 +119,7 @@ export default function DonatePage() {
           <h2 className="text-2xl font-semibold text-brand-dark text-center mb-6">
             More Payment Options Coming Soon
           </h2>
-          
+
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Stripe */}
             <motion.div
@@ -158,7 +166,9 @@ export default function DonatePage() {
               className="bg-white/50 backdrop-blur-lg rounded-2xl p-6 text-center shadow-lg border border-white/40 border-dashed"
             >
               <Globe className="w-10 h-10 text-green-500 mx-auto mb-3 opacity-70" />
-              <h3 className="font-semibold text-brand-dark mb-2">Global Platforms</h3>
+              <h3 className="font-semibold text-brand-dark mb-2">
+                Global Platforms
+              </h3>
               <p className="text-sm text-gray-600">Multiple Options</p>
               <div className="mt-3 text-xs text-amber-600 font-medium">
                 Coming Soon
@@ -178,16 +188,19 @@ export default function DonatePage() {
             Your Support Makes a Difference
           </h2>
           <p className="text-gray-700 mb-6">
-            Every donation goes directly towards providing care, education, and 
-            essential resources for those in need. Thank you for being part of 
+            Every donation goes directly towards providing care, education, and
+            essential resources for those in need. Thank you for being part of
             our mission.
           </p>
-            <p className="text-sm text-gray-500">
+          <p className="text-sm text-gray-500">
             Need help with your donation? Contact us at{" "}
-            <a href="mailto:ablehearts@hotmail.com" className="text-blue-500 underline">
+            <a
+              href="mailto:ablehearts@hotmail.com"
+              className="text-blue-500 underline"
+            >
               ablehearts@hotmail.com
             </a>
-            </p>
+          </p>
         </motion.div>
       </div>
     </div>

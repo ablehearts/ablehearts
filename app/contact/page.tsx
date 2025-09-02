@@ -29,7 +29,7 @@ export default function ContactPage() {
             Get in Touch{" "}
             <MessageCircle className="inline w-8 h-8 text-rose-600 ml-2" />
           </motion.h1>
-          
+
           {/* AbleHearts Logo */}
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
@@ -46,14 +46,15 @@ export default function ContactPage() {
               priority
             />
           </motion.div>
-          
+
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
             className="text-lg text-gray-700 leading-relaxed mb-8 max-w-2xl mx-auto"
           >
-            We'd love to hear from you. Reach us directly via email or connect with us on social media.
+            We'd love to hear from you. Reach us directly via email or connect
+            with us on social media.
           </motion.p>
         </motion.div>
 
@@ -72,7 +73,9 @@ export default function ContactPage() {
             <div className="flex justify-center mb-4">
               <Mail className="w-10 h-10 text-rose-500" />
             </div>
-            <h3 className="font-semibold text-lg text-brand-dark mb-3">Email</h3>
+            <h3 className="font-semibold text-lg text-brand-dark mb-3">
+              Email
+            </h3>
             <p className="text-gray-700 mb-4">Send us a message directly</p>
             <a
               href="mailto:ablehearts@hotmail.com"
@@ -90,7 +93,9 @@ export default function ContactPage() {
             <div className="flex justify-center mb-4">
               <Twitter className="w-10 h-10 text-blue-400" />
             </div>
-            <h3 className="font-semibold text-lg text-brand-dark mb-3">Twitter</h3>
+            <h3 className="font-semibold text-lg text-brand-dark mb-3">
+              Twitter
+            </h3>
             <p className="text-gray-700 mb-4">Follow and message us</p>
             <a
               href="https://x.com/ablehearts_org"
@@ -110,8 +115,12 @@ export default function ContactPage() {
             <div className="flex justify-center mb-4">
               <Music className="w-10 h-10 text-black" />
             </div>
-            <h3 className="font-semibold text-lg text-brand-dark mb-3">TikTok</h3>
-            <p className="text-gray-700 mb-4">Watch and engage with our content</p>
+            <h3 className="font-semibold text-lg text-brand-dark mb-3">
+              TikTok
+            </h3>
+            <p className="text-gray-700 mb-4">
+              Watch and engage with our content
+            </p>
             <a
               href="https://www.tiktok.com/@able_hearts"
               target="_blank"
@@ -137,9 +146,9 @@ export default function ContactPage() {
             We're Here to Connect
           </h2>
           <p className="text-gray-700 mb-6">
-            Whether you have questions, want to get involved, or need support, 
-            we're here to help. Your message matters to us, and we'll respond 
-            as quickly as possible.
+            Whether you have questions, want to get involved, or need support,
+            we're here to help. Your message matters to us, and we'll respond as
+            quickly as possible.
           </p>
           <p className="text-sm text-gray-500">
             Typically respond within 24-48 hours
