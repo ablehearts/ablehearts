@@ -11,8 +11,7 @@
     "prisma:generate": "prisma generate",
     "prisma:migrate": "prisma migrate dev",
     "seed": "tsx scripts/seed.ts",
-    "predeploy": "yarn build && yarn export",
-    "deploy": "gh-pages -d out"
+    "deploy": "yarn build && gh-pages -d out"
   },
   "dependencies": {
     "@prisma/client": "^5.17.0",
