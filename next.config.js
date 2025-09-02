@@ -6,8 +6,6 @@ const nextConfig = {
   images: {
     unoptimized: true, // needed because gh-pages can't optimize images
   },
-  basePath: "/ablehearts", // GitHub repo name
-  assetPrefix: "/ablehearts/",
 };
 
 module.exports = nextConfig;
