@@ -15,13 +15,12 @@ export const metadata: Metadata = {
     "AbleHearts enables borderless giving for Mary & Lydia and families like them.",
   icons: {
     icon: [
-      { url: "/images/ah-mb-bg.png" },
-      { url: "/favicon.ico" },
-      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
-      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "favicon.ico" },
+      { url: "favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "favicon-32x32.png", sizes: "32x32", type: "image/png" },
     ],
     apple: [
-      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+      { url: "apple-touch-icon.png", sizes: "180x180", type: "image/png" },
     ],
   },
 };
@@ -38,6 +37,21 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${nunito.variable}`}>
       <head>
+        {/* Fallback favicons */}
+        <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         {/* Google Analytics (from .env) */}
         {GA_ID && (
           <>
