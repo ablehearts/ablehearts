@@ -29,6 +29,7 @@ Every contribution matters. Donations empower Mary & Lydia to:
 - Inspire others in similar situations 🌍
 
 👉 **[Donate Now](https://ablehearts-org.vercel.app/donate)**
+
 👉 **[Learn More](https://ablehearts-org.vercel.app/about)**
 
 ## Follow & Share 🌐
