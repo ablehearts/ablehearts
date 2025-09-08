@@ -32,6 +32,8 @@ Every contribution matters. Donations empower Mary & Lydia to:
 
 👉 **[Learn More](https://ablehearts-org.vercel.app/about)**
 
+👉 **[GoFundMe](https://www.gofundme.com/u/able-hearts)**
+
 ## Follow & Share 🌐
 
 Stay connected and help us spread the word:
